@@ -19,10 +19,11 @@ struct DetailEditView: View {
                 HStack {
                     Slider(value: $scrum.lengthInMinutesAsDouble, in: 5...30 ,step: 1) {
                         Text("Length")
-                    }
+                    }.accessibilityValue("\(scrum.lengthInMinutes) minutes")
                     
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
+                        .accessibilityHidden(true)
                 }
             }
             
@@ -45,6 +46,7 @@ struct DetailEditView: View {
                         }
                     }) {
                             Image(systemName: "plus.circle.fill")
+                            .accessibilityLabel("Add attendee")
                     }.disabled(newAttendeeName.isEmpty)
                 }
             }
