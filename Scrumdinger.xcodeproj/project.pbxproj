@@ -21,6 +21,7 @@
 		C8B33CAE2A9CC5E8001F02EA /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B33CAD2A9CC5E8001F02EA /* ScrumdingerUITestsLaunchTests.swift */; };
 		C8E8522B2AA0512F001EA91E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8522A2AA0512E001EA91E /* DetailView.swift */; };
 		C8E8522D2AA060CA001EA91E /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8522C2AA060CA001EA91E /* DetailEditView.swift */; };
+		C8E8522F2AA06E6A001EA91E /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8522E2AA06E6A001EA91E /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		C8B33CAD2A9CC5E8001F02EA /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C8E8522A2AA0512E001EA91E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		C8E8522C2AA060CA001EA91E /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		C8E8522E2AA06E6A001EA91E /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C849B2122A9DE03C000A7576 /* TrailingIconLabelStyle.swift */,
 				C8E8522A2AA0512E001EA91E /* DetailView.swift */,
 				C8E8522C2AA060CA001EA91E /* DetailEditView.swift */,
+				C8E8522E2AA06E6A001EA91E /* ThemeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				C849B21A2A9DEC01000A7576 /* Theme.swift in Sources */,
 				C8B33C932A9CC5E2001F02EA /* MeetingView.swift in Sources */,
 				C8B33C912A9CC5E2001F02EA /* ScrumdingerApp.swift in Sources */,
+				C8E8522F2AA06E6A001EA91E /* ThemeView.swift in Sources */,
 				C849B2112A9D4E5F000A7576 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
