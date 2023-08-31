@@ -22,6 +22,7 @@
 		C8E8522B2AA0512F001EA91E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8522A2AA0512E001EA91E /* DetailView.swift */; };
 		C8E8522D2AA060CA001EA91E /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8522C2AA060CA001EA91E /* DetailEditView.swift */; };
 		C8E8522F2AA06E6A001EA91E /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8522E2AA06E6A001EA91E /* ThemeView.swift */; };
+		C8E852312AA07033001EA91E /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E852302AA07033001EA91E /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C8E8522A2AA0512E001EA91E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		C8E8522C2AA060CA001EA91E /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		C8E8522E2AA06E6A001EA91E /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		C8E852302AA07033001EA91E /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C8E8522A2AA0512E001EA91E /* DetailView.swift */,
 				C8E8522C2AA060CA001EA91E /* DetailEditView.swift */,
 				C8E8522E2AA06E6A001EA91E /* ThemeView.swift */,
+				C8E852302AA07033001EA91E /* ThemePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E852312AA07033001EA91E /* ThemePicker.swift in Sources */,
 				C849B20F2A9D4CD7000A7576 /* DailyScrum.swift in Sources */,
 				C8E8522B2AA0512F001EA91E /* DetailView.swift in Sources */,
 				C8E8522D2AA060CA001EA91E /* DetailEditView.swift in Sources */,
